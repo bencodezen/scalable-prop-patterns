@@ -16,14 +16,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String,
-    randomNumber: {
-      type: Number,
-      default: () => Math.floor(Math.random() * 6 + 1)
-    }
-  }
+  name: 'HelloWorld'
 }
 </script>
 
