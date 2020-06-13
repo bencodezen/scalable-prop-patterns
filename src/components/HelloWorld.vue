@@ -22,18 +22,22 @@
         />
       </li>
     </ul>
+    <h2>Here is my Map:</h2>
+    <Map />
   </div>
 </template>
 
 <script>
 import BaseBadge from '@/components/BaseBadge'
 import BaseDateLabel from '@/components/BaseDateLabel'
+import Map from '@/components/Map'
 
 export default {
   name: 'HelloWorld',
   components: {
     BaseBadge,
-    BaseDateLabel
+    BaseDateLabel,
+    Map
   },
   data: () => ({
     badges: [
