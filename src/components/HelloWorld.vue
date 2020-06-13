@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>Scalable Prop Patterns with Vue.js</h1>
+    <p>Today is <BaseDateLabel iso-date="2020-06-13" /></p>
     <p>
       For all of the workshop resources,<br />
       check out the
@@ -26,11 +27,13 @@
 
 <script>
 import BaseBadge from '@/components/BaseBadge'
+import BaseDateLabel from '@/components/BaseDateLabel'
 
 export default {
   name: 'HelloWorld',
   components: {
-    BaseBadge
+    BaseBadge,
+    BaseDateLabel
   },
   data: () => ({
     badges: [
